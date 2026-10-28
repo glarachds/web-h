@@ -1,0 +1,57 @@
+body {
+    background-color: lightgray;
+    color: black;
+}
+
+#barra-navegacion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkblue;
+    color: white;
+    height: 60px;
+}
+
+.link-blanco {
+    color: white;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    height: 120px;
+}
+
+#caja-grande {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 320px;
+}
+
+.tarjeta {
+    background-color: white;
+    border: 2px solid royalblue;
+    width: 440px;
+    height: 240px;
+    text-align: center;
+}
+
+#tarjeta-plantel {
+    background-color: white;
+    border: 2px solid royalblue;
+    width: 480px;
+    height: 260px;
+    text-align: center;
+}
+
+button {
+    background-color: royalblue;
+    color: white;
+    border: 1px solid white;
+    height: 35px;
+}
